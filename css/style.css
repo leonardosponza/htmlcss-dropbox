@@ -135,12 +135,204 @@ p {
 
 
 /* MAIN */
-.sec-plan{
-    text-align: center;
-    margin: 300px;
 
+/* zona abbonamenti */
+.prezzi{
+    margin-top: 200px;
+    margin-left: 250px;
 }
-.radioo{
-  margin-left: 20px;
-  
+
+.prezzi::after{
+    content: "";
+    display: table;
+    clear: both;
 }
+
+.prezzi h2{
+    font-size: 60px;
+}
+
+#abbonamento{
+    font-size: 35px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.casella{
+    border: 1px solid black;
+    width: 25%;
+    display: inline-block;
+    float: left;
+}
+
+.n2{
+    margin: 0px 50px;
+}
+
+.icona{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.casella h4{
+    font-size: 30px;
+}
+
+.casella-padd{
+    margin: 0px 20px;
+}
+
+.casella-padd *{
+    
+    margin-bottom: 10px;
+}
+
+.sotto-costo{
+    color: gray;
+}
+
+.casella-padd li{
+    font-size: 14px;
+}
+.lista-3{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.simbolo{
+    margin: 40px 0px;
+    list-style-type: none;
+    
+}
+
+.btn-lista{
+    font-size: 20px;
+    padding: 5px 40px;
+    text-align: center;
+}
+
+.riga{
+    margin: 30px 200px;
+    margin-left: 0px;
+    color: rgb(167, 166, 166);
+}
+
+.casella-padd h5{
+    font-size: 20px;
+}
+
+.lista{
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+/* tabella sotto abbonamenti */
+.cln{
+    border: 1px solid black;
+    margin:50px 250px;
+    
+}
+
+.cln *{
+    margin: 16px 0px;
+}
+
+.cln .icona{
+    font-size: 20px;
+    
+}
+
+.cln h3{
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 600px;
+    padding:0px 20px
+    
+}
+ .cln div{
+     padding: 0px 20px;
+ }
+
+.btn a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* inizio immagine due tizi */
+.intermezzo{
+    margin: 50px 250px;
+}
+
+.intermezzo img{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.intermezzo-dx{
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+.intermezzo-dx h3{
+    display: inline-block;
+    font-size: 40px;
+}
+ .intermezzo-dx div{
+     font-size: 20px;
+ }
+
+.white{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+/* inizi zona benefici */
+
+.benefici{
+    margin: 50px 250px;
+}
+.benefici h2{
+    font-size: 60px;
+      
+}
+
+.row{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item{
+    width: 300px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 50px;
+    float: left;
+}
+
+.item img{
+    width: 300px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.centrale {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.item h4{
+    font-size: 30px;
+    margin: 20px 0px;
+}
+
+
