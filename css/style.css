@@ -336,4 +336,162 @@ p {
     margin: 20px 0px;
 }
 
+/* boxes */
+
+.top-boxes{
+    margin-top:40px;
+}
+
+
+.col-boxes{
+    width: calc(100% /3)
+}
+
+.img-col{
+    width: 49%;
+    height: 200px;;
+    padding: 50px;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.img-green{
+    background-color: #a2d39b;
+    border: 8px solid #d0e9cd;
+}
+
+.img-burgundy{
+    background-color: #61082b;
+}
+
+.img-lightblue{
+    background-color: #0093ce;
+}
+
+.img-orange{
+    background-color: #ff1c1c;
+}
+
+.img-red{
+    background-color: #d5001f;
+}
+
+.img-lightbluish{
+    background-color: #b4d0e7;
+}
+
+.img-blue{
+    background-color: #0d2481;
+}
+
+.img-yellow{
+    background-color: #ffd830;
+}
+
+.middle-box{
+    background-color: #f5f5f5;
+    height: 400px;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+
+.designit-position{
+    width: 40%;
+    object-fit: contain;
+    border-bottom: 1px solid #d0d0d3;
+}
+
+.col-boxes article{
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 30px 0;
+}
+
+.bottom-boxes{
+    background-color: #b4d0e7;
+    padding: 100px 400px 80px 150px;
+    margin-bottom: 100px;
+    width: 100%;
+    position: relative;
+
+}
+
+.bottom-boxes h2{
+    color: #61082b;
+    font-size: 48px;
+    text-align: left;
+}
+
+.btn-white-noborder{
+    position: absolute;
+    top: 33%;
+    right: 10%;
+}
+
+/* footer*/
+
+
+.container-footer{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width:100%;
+    height:665px;
+    background-color: #000000;
+    margin-top: 100px;
+    padding: 150px 150px;
+    position: relative;
+}
+
+
+
+.col-fot{
+    width: calc(100% / 5 - 20px);
+    margin: 0 10px;
+}
+
+.col-flot nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.col-fot h4{
+    font-size: 20px;
+}
+
+.col-fot nav ul{
+    list-style-type: none;
+}
+
+.col-fot nav ul li a{
+    text-decoration-line: none;
+    font-size: 14px;
+}
+
+.col-fot nav ul li{
+    margin-top: 8px;
+}
+
+#language{
+    position: absolute;
+    bottom: 24%;
+    left: 12%;
+    border-top: 1px solid #767676;
+    line-height: 78px;
+}
+
+#language a{
+    color: #767676;
+    text-decoration-line: none;
+}
+
+#language i:first-child{
+    color: #bdc4c9;
+}
+
+
+#language span{
+    margin:0 5px;
+}
+
 
