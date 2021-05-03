@@ -14,7 +14,7 @@ body {
     clear: both;
 }
 
-.float-l {
+.float-l,.float-left {
     float: left;
 }
 
