@@ -427,6 +427,22 @@ p {
     position: absolute;
     top: 33%;
     right: 10%;
+
+}
+.faq{
+    margin: 30px;
+    float: left;
+    width: 100%;   
+}
+.domande{
+    text-align: center;
+}
+hr{
+    margin-left: 500px;
+    margin-right: 500px;    
+}
+.arrow{
+    margin-left: 60px;
 }
 
 /* footer*/
